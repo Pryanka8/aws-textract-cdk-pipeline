@@ -12,7 +12,7 @@ The solution is designed with **production-ready patterns**, focusing on scalabi
 
 ## 📊 Architecture Diagram
 
-![Architecture](doc/architecture.png)
+![Architecture](doc/architecture.jpg)
 
 **Flow:**
 
