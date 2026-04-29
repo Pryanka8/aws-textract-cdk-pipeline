@@ -10,6 +10,10 @@ The solution is designed with **production-ready patterns**, focusing on scalabi
 
 ## 🧱 Architecture
 
+## 📊 Architecture Diagram
+
+![Architecture](doc/architecture.png)
+
 **Flow:**
 
 1. Document uploaded to S3

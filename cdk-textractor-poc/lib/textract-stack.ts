@@ -32,7 +32,11 @@ export class TextractStack extends cdk.Stack {
     // Permissions for Textract
     textractLambda.addToRolePolicy(
       new iam.PolicyStatement({
-        actions: ["textract:DetectDocumentText", "textract:AnalyzeDocument"],
+        actions: [
+          "textract:DetectDocumentText",
+          "textract:AnalyzeDocument",
+          "s3:GetObject",
+        ],
         resources: ["*"],
       }),
     );
